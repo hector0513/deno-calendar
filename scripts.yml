@@ -1,0 +1,8 @@
+scripts:
+  start:
+    allow: 
+      net: 
+      read: "./"
+    cmd: "deno run server.tsx"
+    desc: "run my app.ts file"
+    unstable: "true"
